@@ -1,0 +1,139 @@
+:root{
+  --pp: #EA526F;
+  --sb: #070600;
+  --gw: #F7F7FF;
+  --pb: #23B5D3;
+  --db: #279AF1;
+  --brick-red: #C33C54;
+  --indigo-dye: #254E70;
+  --teal-blue: #37718E;
+  --sky-blue: #8EE3EF;
+  --celeste: #AEF3E7;
+  --jet: #343434;
+  --gainsboro: #DFDFDF;
+  --cadet-grey: #829399;
+  --davys-grey: #49555A;
+  --cadet: #65757B;
+  --eggshell: #F4F1DE;
+  --terracotta: #E07A5F;
+  --independence: #3D405B;
+  --green-sheen: #81B29A;
+  --deep-champagne: #F2CC8F;
+
+  --w: #FFFFFF;
+  --j: #313130;
+  --rs: #FB3640;
+  --p: #ecebeb;
+  --cu: #963438;
+  --gg: #605F5E;
+}
+
+main {
+  max-width: 640px;
+  margin: auto;
+}
+
+.card {
+  width: 100%;
+  height: 500px;
+  background-color: var(--p);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--w);
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--jet);
+}
+
+.jet {
+  color: var(--jet);
+  text-decoration: none;
+}
+
+.cadet {
+  color: var(--cadet);
+  text-decoration: none;
+}
+
+.center-text { text-align: center }
+
+.m2040 { margin: 20px 40px }
+
+.head-nav {
+  height: 150px;
+  /* font-size: 20px; */
+  max-width: 640px;
+  text-align:center;
+  margin: 30px auto;
+  /* background: var(--j); */
+}
+
+.card {
+  border-radius: 50px;
+}
+
+.upper {
+  height: 50px;
+  background: var(--j);
+  border-radius: 50px 50px 0 0;
+}
+
+.image {
+  height: 300px;
+  background: var(--cu);
+}
+
+.text {
+  height: 150px;
+  background: var(--gg);
+  border-radius: 0 0 50px 50px;
+}
+
+/* .head-nav a {
+  text-decoration: none;
+  background: var(--cu);
+  font-size: 100px;
+} */
+
+/* .intro {
+  display: flex;
+  height: 75vh;
+  /* background: var(--green-sheen); *//*
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* .action-call {
+  min-width: 50%;
+  margin: 0 auto;
+  /* background: var(--green-sheen) *//*
+} */
+
+.f50 { font-size: 50px }
+
+
+
+.mw1000 {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.f26 {font-size: 26px }
+
+.f20 { font-size: 20px }
+
+.lh30 {line-height: 30px }
+
+.bm { margin-bottom: 200px }
+
+.bm50 { margin-bottom: 50px }
+
+a strong:hover, a:hover { color: var(--cadet) }
+
+p { text-align: justify; }
